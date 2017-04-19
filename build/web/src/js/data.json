@@ -1,0 +1,50 @@
+{ 
+    "p1":{ 
+        "titulo":"Payasos", 
+        "imagen":"banner.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#PY"
+    },
+    
+    "p2":{ 
+        "titulo":"Magia", 
+        "imagen":"banner-01.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#MG"
+    },
+    
+    "p3":{ 
+        "titulo":"Recreación", 
+        "imagen":"banner-02.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#RC"
+    },
+    
+    "p4":{ 
+        "titulo":"Titeres", 
+        "imagen":"banner-01.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#TT"
+    },
+    
+    "p5":{ 
+        "titulo":"BTL", 
+        "imagen":"banner.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#RC"
+    },
+    
+    "p6":{ 
+        "titulo":"Juegos Multiples", 
+        "imagen":"banner-02.jpg", 
+        "descripcion":"United States United States United States United States United States United States",
+        "txtBoton": "acceder",
+        "link": "#TT"
+    }
+    
+}

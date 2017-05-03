@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Rin Rin Recreación | Control de prácticas</title>
+        <base href="../localhost" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/main.css"/>
+    </head>
+    
+        
+        <header class="header-banner" elevation="2">
+            <div class="header">
+                <i id="menuResponsive" class="menuResponsive"></i>
+                <a href="index.html" class="logo"></a>
+                <h1>
+                    Rin Rin Recreación
+                </h1>
+                <h2>
+                    Práctica de payasos
+                </h2>
+            </div>            
+        </header>
+            
+        <div class="contenedor">
+
+            <aside class="aside" elevation="1">
+              <nav class="actividades">
+                <h3>
+                    Obras
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#" id="laNovia">Marroco</a>
+                    </li>
+                    <li>
+                        <a href="#" id="elSoldado">Choco-fresa</a>
+                    </li>
+                    <li>
+                        <a href="#" id="siSenorNoSenor">Titiri cuentos</a>
+                    </li>
+                </ul>
+              </nav>
+            </aside>
+            
+            <section class="main w-100" >
+                <article class="article w-100 showFromCenter">
+                    <div class="video">
+                        <iframe class="showFromCenter" width="560" height="315" src="https://www.youtube.com/embed/37gy83CWTYs?ecver=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </article>
+            </section>
+            
+          </div>
+        
+        <footer elevation="3">
+            Rin Rin Recreación &copy; 2017
+        </footer>
+        
+        <div id="map" style="width: 100%; height: 500px;"></div>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQM_sniUz-75VQ31JxmQ59mt03NGdsMIc&callback=initMap"></script>
+
+        <script src="./src/js/Actions.js" ></script>
+        <script src="./src/js/ButtonListenerGroup.js" ></script>
+        <script src="./src/js/GoogleMap.js" ></script>
+        <script src="./src/js/main.js" ></script>
+        
+    
+

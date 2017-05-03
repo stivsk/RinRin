@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+
     <head>
         <title>Rin Rin Recreación | Control de prácticas</title>
+        <base href="localhost" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./src/css/main.css"/>
     </head>
-    <body>
+    
         
         <header class="header-banner" elevation="2">
             <div class="header">
-                <i class="menu-responsive"></i>
-                <i class="logo"></i>
+                <i id="menuResponsive" class="menuResponsive"></i>
+                <a href="index.html" class="logo"></a>
                 <h1>
                     Rin Rin Recreación
                 </h1>
@@ -41,7 +37,7 @@ and open the template in the editor.
                         <a href="#" id="eliminarTodoArticulo">Eliminar Todo</a>
                     </li>
                     <li>
-                        <a href="#" id="borrar1erArticulo">Generar articulos</a>
+                        <a href="#" id="generarArticulos">Generar articulos</a>
                     </li>
                     <li>
                         <a href="#" id="insertarMensaje">Insertar Mensaje</a>
@@ -57,27 +53,26 @@ and open the template in the editor.
                   
                 <ul>
                   <li>
-                      <a href="#" id="cambiar-fondo">Cambiar Fondo</a>
+                      <a href="#" id="cambiarFondo">Cambiar Fondo</a>
                   </li>
                   <li>
-                      <a href="#" id="cambiar-tipografia">Cambiar Tipografia</a>
+                      <a href="#" id="cambiarTipografia">Cambiar Tipografia</a>
                   </li>
                   <li>
-                      <a href="#" id="toggle-articulo">Ver/esconder articulos</a>
+                      <a href="#" id="toggleArticulo">Ver/esconder articulos</a>
                   </li>
                   <li>
-                      <a href="#" id="desenfocar-articulo">Desenfocar articulos</a>
+                      <a href="#" id="desenfocarArticulo">Desenfocar articulos</a>
                   </li>
                   <li>
-                      <a href="#" id="enfocar-articulo">Enfocar articulos</a>
+                      <a href="#" id="enfocarArticulo">Enfocar articulos</a>
                   </li>
                 </ul>
 
               </nav>
             </aside>
             
-            <section class="main" id="articulos">
-            </section>
+            <section class="main" id="articulos"></section>
             
           </div>
         
@@ -85,7 +80,16 @@ and open the template in the editor.
             Rin Rin Recreación &copy; 2017
         </footer>
         
+        <div id="map" style="width: 100%; height: 500px;"></div>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQM_sniUz-75VQ31JxmQ59mt03NGdsMIc&callback=initMap"></script>
+
+        <script src="./src/js/Actions.js" ></script>
+        <script src="./src/js/ButtonListenerGroup.js" ></script>
+        <script src="./src/js/ArticleGenerator.js" ></script>
+        <script src="./src/js/JsonArticleGenerator.js" ></script>
+        <script src="./src/js/GoogleMap.js" ></script>
         <script src="./src/js/main.js" ></script>
         
-    </body>
-</html>
+    
+

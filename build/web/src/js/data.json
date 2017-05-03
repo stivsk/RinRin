@@ -1,50 +1,33 @@
-{ 
-    "p1":{ 
+[ 
+    { 
         "titulo":"Payasos", 
         "imagen":"banner.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#PY"
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue dapibus dolor ullamcorper pellentesque. Maecenas nec felis justo. Pellentesque venenatis.",
+        "txtBoton": "Participar",
+        "link": "practicas/payasos"
     },
     
-    "p2":{ 
+    { 
         "titulo":"Magia", 
         "imagen":"banner-01.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#MG"
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue dapibus dolor ullamcorper pellentesque. Maecenas nec felis justo. Pellentesque venenatis.",
+        "txtBoton": "Participar",
+        "link": "practicas/magia"
     },
     
-    "p3":{ 
+    { 
         "titulo":"Recreación", 
         "imagen":"banner-02.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#RC"
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue dapibus dolor ullamcorper pellentesque. Maecenas nec felis justo. Pellentesque venenatis.",
+        "txtBoton": "Participar",
+        "link": "practicas/recreacion"
     },
     
-    "p4":{ 
+    { 
         "titulo":"Titeres", 
-        "imagen":"banner-01.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#TT"
-    },
-    
-    "p5":{ 
-        "titulo":"BTL", 
-        "imagen":"banner.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#RC"
-    },
-    
-    "p6":{ 
-        "titulo":"Juegos Multiples", 
-        "imagen":"banner-02.jpg", 
-        "descripcion":"United States United States United States United States United States United States",
-        "txtBoton": "acceder",
-        "link": "#TT"
-    }
-    
-}
+        "imagen":"banner-03.jpg", 
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue dapibus dolor ullamcorper pellentesque. Maecenas nec felis justo. Pellentesque venenatis.",
+        "txtBoton": "Participar",
+        "link": "practicas/titeres"
+    }   
+]
